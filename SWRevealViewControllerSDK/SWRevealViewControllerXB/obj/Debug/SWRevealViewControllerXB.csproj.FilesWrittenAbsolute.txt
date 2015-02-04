@@ -1,0 +1,5 @@
+/Users/wevdeveloper/Documents/Projects/QFSVN/Warhol/MobileiOS/trunk/Sample/SampleApp/SWRevealViewControllerXB/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/wevdeveloper/Documents/Projects/QFSVN/Warhol/MobileiOS/trunk/Sample/SampleApp/SWRevealViewControllerXB/bin/Debug/SWRevealViewControllerXB.dll.mdb
+/Users/wevdeveloper/Documents/Projects/QFSVN/Warhol/MobileiOS/trunk/Sample/SampleApp/SWRevealViewControllerXB/bin/Debug/SWRevealViewControllerXB.dll
+/Users/wevdeveloper/Documents/Projects/QFSVN/Warhol/MobileiOS/trunk/Sample/SampleApp/SWRevealViewControllerXB/obj/Debug/SWRevealViewControllerXB.dll
+/Users/wevdeveloper/Documents/Projects/QFSVN/Warhol/MobileiOS/trunk/Sample/SampleApp/SWRevealViewControllerXB/obj/Debug/SWRevealViewControllerXB.dll.mdb

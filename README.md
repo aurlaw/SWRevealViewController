@@ -3,6 +3,19 @@
 A UIViewController subclass for revealing a rear (left and/or right) view controller behind a front controller, inspired by the Facebook app, done right!
 
 
+## NOTE
+* Forked from [https://github.com/John-Lluch/SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController)
+* Added Xamarin Bindings and Xcode Static library
+* To generate the static library for Simulator, Arm64, Armv7 & Armv7s, execute
+```
+make
+```
+
+to generated C# bindings
+```
+make sharpie
+```
+
 ## NOTE ( Version 2.3)
 
 * This version fixes an old bug that caused an incorrect initialization of the class on particular scenarios.

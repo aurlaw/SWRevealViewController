@@ -1,0 +1,8 @@
+obj/Debug/ios/ObjCRuntime/Messaging.g.cs
+obj/Debug/ios/SWRevealViewControllerXB/SWRevealViewController.g.cs
+obj/Debug/ios/SWRevealViewControllerXB/SWRevealViewControllerDelegate.g.cs
+obj/Debug/ios/SWRevealViewControllerXB/SWRevealViewController_UIViewController.g.cs
+obj/Debug/ios/SWRevealViewControllerXB/SWRevealViewControllerSegueSetController.g.cs
+obj/Debug/ios/SWRevealViewControllerXB/SWRevealViewControllerSeguePushController.g.cs
+obj/Debug/ios/SupportDelegates.g.cs
+obj/Debug/ios/ObjCRuntime/Trampolines.g.cs

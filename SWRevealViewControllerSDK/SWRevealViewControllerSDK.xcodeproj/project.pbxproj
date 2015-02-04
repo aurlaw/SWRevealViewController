@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074654121A82666A00F5B4DC /* libSWRevealViewControllerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 074654061A82666A00F5B4DC /* libSWRevealViewControllerSDK.a */; };
+		074654281A8266FA00F5B4DC /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074654271A8266FA00F5B4DC /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074654131A82666A00F5B4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074653FE1A82666A00F5B4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074654051A82666A00F5B4DC;
+			remoteInfo = SWRevealViewControllerSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		074654041A82666A00F5B4DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		074654061A82666A00F5B4DC /* libSWRevealViewControllerSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWRevealViewControllerSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		074654111A82666A00F5B4DC /* SWRevealViewControllerSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRevealViewControllerSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074654171A82666A00F5B4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074654261A8266FA00F5B4DC /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		074654271A8266FA00F5B4DC /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074654031A82666A00F5B4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0746540E1A82666A00F5B4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074654121A82666A00F5B4DC /* libSWRevealViewControllerSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074653FD1A82666A00F5B4DC = {
+			isa = PBXGroup;
+			children = (
+				074654081A82666A00F5B4DC /* SWRevealViewControllerSDK */,
+				074654151A82666A00F5B4DC /* SWRevealViewControllerSDKTests */,
+				074654071A82666A00F5B4DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074654071A82666A00F5B4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074654061A82666A00F5B4DC /* libSWRevealViewControllerSDK.a */,
+				074654111A82666A00F5B4DC /* SWRevealViewControllerSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074654081A82666A00F5B4DC /* SWRevealViewControllerSDK */ = {
+			isa = PBXGroup;
+			children = (
+				074654261A8266FA00F5B4DC /* SWRevealViewController.h */,
+				074654271A8266FA00F5B4DC /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewControllerSDK;
+			sourceTree = "<group>";
+		};
+		074654151A82666A00F5B4DC /* SWRevealViewControllerSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				074654161A82666A00F5B4DC /* Supporting Files */,
+			);
+			path = SWRevealViewControllerSDKTests;
+			sourceTree = "<group>";
+		};
+		074654161A82666A00F5B4DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074654171A82666A00F5B4DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074654051A82666A00F5B4DC /* SWRevealViewControllerSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0746541A1A82666A00F5B4DC /* Build configuration list for PBXNativeTarget "SWRevealViewControllerSDK" */;
+			buildPhases = (
+				074654021A82666A00F5B4DC /* Sources */,
+				074654031A82666A00F5B4DC /* Frameworks */,
+				074654041A82666A00F5B4DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWRevealViewControllerSDK;
+			productName = SWRevealViewControllerSDK;
+			productReference = 074654061A82666A00F5B4DC /* libSWRevealViewControllerSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		074654101A82666A00F5B4DC /* SWRevealViewControllerSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0746541D1A82666A00F5B4DC /* Build configuration list for PBXNativeTarget "SWRevealViewControllerSDKTests" */;
+			buildPhases = (
+				0746540D1A82666A00F5B4DC /* Sources */,
+				0746540E1A82666A00F5B4DC /* Frameworks */,
+				0746540F1A82666A00F5B4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074654141A82666A00F5B4DC /* PBXTargetDependency */,
+			);
+			name = SWRevealViewControllerSDKTests;
+			productName = SWRevealViewControllerSDKTests;
+			productReference = 074654111A82666A00F5B4DC /* SWRevealViewControllerSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074653FE1A82666A00F5B4DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gatesman+Dave";
+				TargetAttributes = {
+					074654051A82666A00F5B4DC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					074654101A82666A00F5B4DC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 074654011A82666A00F5B4DC /* Build configuration list for PBXProject "SWRevealViewControllerSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074653FD1A82666A00F5B4DC;
+			productRefGroup = 074654071A82666A00F5B4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074654051A82666A00F5B4DC /* SWRevealViewControllerSDK */,
+				074654101A82666A00F5B4DC /* SWRevealViewControllerSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0746540F1A82666A00F5B4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074654021A82666A00F5B4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074654281A8266FA00F5B4DC /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0746540D1A82666A00F5B4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074654141A82666A00F5B4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074654051A82666A00F5B4DC /* SWRevealViewControllerSDK */;
+			targetProxy = 074654131A82666A00F5B4DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074654181A82666A00F5B4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074654191A82666A00F5B4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0746541B1A82666A00F5B4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0746541C1A82666A00F5B4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0746541E1A82666A00F5B4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SWRevealViewControllerSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0746541F1A82666A00F5B4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SWRevealViewControllerSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074654011A82666A00F5B4DC /* Build configuration list for PBXProject "SWRevealViewControllerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074654181A82666A00F5B4DC /* Debug */,
+				074654191A82666A00F5B4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0746541A1A82666A00F5B4DC /* Build configuration list for PBXNativeTarget "SWRevealViewControllerSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0746541B1A82666A00F5B4DC /* Debug */,
+				0746541C1A82666A00F5B4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0746541D1A82666A00F5B4DC /* Build configuration list for PBXNativeTarget "SWRevealViewControllerSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0746541E1A82666A00F5B4DC /* Debug */,
+				0746541F1A82666A00F5B4DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074653FE1A82666A00F5B4DC /* Project object */;
+}
