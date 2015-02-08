@@ -33,8 +33,31 @@
     
     _label.text = _text;
     _label.textColor = _color;
-}
 
+	
+		// START: Atrributed Navigation title (Custom Font: BenchNine-Bold.ttf)
+	NSDictionary *attributes = @{NSForegroundColorAttributeName: [UIColor blackColor],
+							  NSFontAttributeName: [UIFont fontWithName:@"BenchNine-Bold" size:40.0]};
+
+	
+	NSDictionary * wordToColorMapping = @{@"color ": [UIColor blackColor], _text: _color};
+	NSMutableAttributedString *strTitle = [[NSMutableAttributedString alloc] initWithString:@""];
+	for (NSString *word in wordToColorMapping) {
+		 UIColor *color = [wordToColorMapping objectForKey:word];
+		NSMutableDictionary *att = [[NSMutableDictionary alloc] initWithDictionary:attributes];
+		[att setObject:color forKey:NSForegroundColorAttributeName];
+		
+		 NSAttributedString * subString = [[NSAttributedString alloc] initWithString:[word lowercaseString] attributes:att];
+		 [strTitle appendAttributedString:subString];
+	}
+	UILabel *titleLabel = [UILabel new];
+	titleLabel.attributedText = strTitle;// [[NSAttributedString alloc] initWithString:_text attributes:attributes];
+	[titleLabel sizeToFit];
+	self.navigationItem.titleView = titleLabel;
+	
+		// END: Atrributed Navigation title
+	
+}
 
 #pragma mark state preservation / restoration
 
@@ -67,7 +90,7 @@
     NSLog(@"%s", __PRETTY_FUNCTION__);
     
     // Call whatever function you need to visually restore
-    [self customSetup];
+//    [self customSetup];
 }
 
 @end

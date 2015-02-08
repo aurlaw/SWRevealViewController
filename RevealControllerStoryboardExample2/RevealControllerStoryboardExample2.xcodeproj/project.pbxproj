@@ -25,6 +25,7 @@
 		4EE9024B1964A28600AA3B42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902481964A28600AA3B42 /* Default.png */; };
 		4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902491964A28600AA3B42 /* Default-568h@2x.png */; };
 		4EE9024E1964A29300AA3B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9024D1964A29300AA3B42 /* main.m */; };
+		6FBB7BE51A86E2C900092DB4 /* BenchNine-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBB7BE41A86E2C900092DB4 /* BenchNine-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4EE902481964A28600AA3B42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RevealControllerStoryboardExample2/Default.png; sourceTree = SOURCE_ROOT; };
 		4EE902491964A28600AA3B42 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "RevealControllerStoryboardExample2/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		4EE9024D1964A29300AA3B42 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RevealControllerStoryboardExample2/main.m; sourceTree = SOURCE_ROOT; };
+		6FBB7BE41A86E2C900092DB4 /* BenchNine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BenchNine-Bold.ttf"; path = "BenchNine/BenchNine-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		01FB8670169E2D8B00A0A1A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6FBB7BE41A86E2C900092DB4 /* BenchNine-Bold.ttf */,
 				4EE9022D1964A15800AA3B42 /* RevealControllerStoryboardExample2-Prefix.pch */,
 				4EE9022E1964A15800AA3B42 /* RevealControllerStoryboardExample2-Info.plist */,
 				4EE902431964A27600AA3B42 /* reveal-icon@2x.png */,
@@ -180,6 +183,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = CoDeveloper;
+				TargetAttributes = {
+					01FB8664169E2D8B00A0A1A8 = {
+						DevelopmentTeam = T54JASTD4Z;
+					};
+				};
 			};
 			buildConfigurationList = 01FB865F169E2D8B00A0A1A8 /* Build configuration list for PBXProject "RevealControllerStoryboardExample2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -211,6 +219,7 @@
 				4EE9024A1964A28600AA3B42 /* Default@2x.png in Resources */,
 				4E00E29719659277007CA70B /* MainStoryboard-iPad.storyboard in Resources */,
 				4EE9023D1964A22200AA3B42 /* InfoPlist.strings in Resources */,
+				6FBB7BE51A86E2C900092DB4 /* BenchNine-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +325,7 @@
 		01FB868A169E2D8B00A0A1A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevealControllerStoryboardExample2/RevealControllerStoryboardExample2-Prefix.pch";
 				INFOPLIST_FILE = "RevealControllerStoryboardExample2/RevealControllerStoryboardExample2-Info.plist";
@@ -328,6 +338,7 @@
 		01FB868B169E2D8B00A0A1A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevealControllerStoryboardExample2/RevealControllerStoryboardExample2-Prefix.pch";
 				INFOPLIST_FILE = "RevealControllerStoryboardExample2/RevealControllerStoryboardExample2-Info.plist";
